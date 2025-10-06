@@ -2,3 +2,28 @@
 /* UO276467 */
 
 /* Estilos generales del proyecto MotoGP-Desktop */
+
+/* Especifidad 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4f1f4;
+    color: #05445e;
+}
+
+/*Especificidad 001*/
+header {
+    background-color: #75e6da;
+    /* Hereda propiedad color de body */
+}
+
+/*Especificidad 001*/
+nav {
+    background-color: #75e6da;
+    /* Hereda propiedad color de body*/
+}
+
+/*Especificidad 001*/
+h1 {
+    background-color: #75e6da;
+     /* Hereda propiedad color de body */
+}
