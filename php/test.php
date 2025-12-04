@@ -412,10 +412,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <?php
                 $enunciados = [
                     1 => "¿Cúantos puntos obtuvo Pedro Acosta en el último mundial de MotoGP?",
-                    2 => "¿Cuánhas aplicaciones hay en la sección 'Juegos'?",
+                    2 => "¿Cuántas aplicaciones hay en la sección 'Juegos'?",
                     3 => "¿Cúantos habitantes tiene Misano?",
                     4 => "¿Qué dorsal lleva actualmente Pedro Acosta?",
-                    5 => "¿Cuántas parejas hay en total en el juego de cartas?",
+                    5 => "Completa el juego de cartas e indica cuánto tiempo te ha llevado.",
                     6 => "¿Cuántas imágenes distintas del Misano World Circuit se muestran en la página de inicio?",
                     7 => "¿Cuál es el gentilicio de Misano?",
                     8 => "¿Qué temperatura media hacía el día antes de la carrera en Misano World Circuit?",
