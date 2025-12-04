@@ -10,9 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <title>MotoGP-Circuito</title>
     <link rel="icon" href="multimedia/favicon.ico" />
+
 </head>
 
 <body>
@@ -21,17 +23,39 @@
         <nav>
             <a href="index.html" title="Página de inicio">Inicio</a>
             <a href="piloto.html" title="Información del piloto">Piloto</a>
-            <a href="circuito.html" title="Información del circuito">Circuito</a>
+            <a href="circuito.html" class="active" title="Información del circuito">Circuito</a>
             <a href="meteorologia.html" title="Información meteorológica">Meteorología</a>
-            <a href="clasificaciones.html" title="Información sobre clasificaciones">Clasificaciones</a>
+            <a href="clasificaciones.php" title="Información sobre clasificaciones">Clasificaciones</a>
             <a href="juegos.html" title="Página de juegos">Juegos</a>
             <a href="ayuda.html" title="Manual de ayuda de MotoGP-Desktop">Ayuda</a>
         </nav>
     </header>
 
-    <p>Estás en: <a href="index.html" title="Página de inicio">Inicio</a> >> Circuito</p>
+    <p>Estás en: <a href="index.html" title="Página de inicio">Inicio</a> >> <strong>Circuito</strong></p>
 
-    <h2>Circuito</h2>
-    <p>En desarrollo</p>
+    <main>
+        <h2>Circuito</h2>
+
+        <p>
+            <label>Selecciona el archivo InfoCircuito.html: </label>
+            <input type="file" accept=".html" />
+        </p>
+
+        <p>
+            <label>Selecciona el archivo altimetria.svg: </label>
+            <input type="file" accept=".svg" />
+        </p>
+
+        <p>
+            <label>Selecciona el archivo circuito.kml: </label>
+            <input type="file" accept=".kml" />
+        </p>
+
+        <div></div>
+    </main>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0YpBNJgMGpQDleTEonw3MrsY4TczhKBo"></script>
+    <script src="js/circuito.js"></script>
+    
 </body>
 </html>

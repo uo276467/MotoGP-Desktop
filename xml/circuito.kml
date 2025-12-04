@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta desde XML</name>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>Trayecto</name>
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <coordinates>12.6825,43.959444,0 12.681111,43.959444,0 12.680833,43.958333,0 12.679444,43.958056,0 12.676944,43.958056,0 12.6775,43.958889,0 12.678611,43.958611,0 12.683611,43.963333,0 12.679444,43.961944,0 12.678333,43.962222,0 12.678333,43.962778,0 12.685278,43.964722,0 12.688611,43.964167,0 12.69,43.963333,0 12.689444,43.961944,0 12.688611,43.963611,0 12.685556,43.964167,0 12.6825,43.959444,0</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

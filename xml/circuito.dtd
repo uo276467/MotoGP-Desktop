@@ -1,0 +1,44 @@
+<!ELEMENT circuito (extension, anchura, bibliografia, galeriaFotos, galeriaVideos, coordenadas, puntos, vencedor, top3)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT anchura (#PCDATA)>
+<!ELEMENT bibliografia (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT galeriaFotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT galeriaVideos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT puntos (tramo+)>
+<!ELEMENT tramo (distancia, coordenadas, sector)>
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT coordenadas (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT sector (#PCDATA)>
+<!ELEMENT vencedor (duracion)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT top3 (piloto, piloto, piloto)>
+<!ELEMENT piloto (#PCDATA)>
+
+<!ATTLIST circuito nombre CDATA #REQUIRED>
+<!ATTLIST circuito fecha2025 CDATA #REQUIRED>
+<!ATTLIST circuito horaInicio CDATA #REQUIRED>
+<!ATTLIST circuito nVueltas CDATA #REQUIRED>
+<!ATTLIST circuito localidad CDATA #REQUIRED>
+<!ATTLIST circuito pais CDATA #REQUIRED>
+<!ATTLIST circuito patrocinador CDATA #REQUIRED>
+<!ATTLIST extension unidades CDATA #REQUIRED>
+<!ATTLIST anchura unidades CDATA #REQUIRED>
+<!ATTLIST referencia enlace CDATA #REQUIRED>
+<!ATTLIST foto enlace CDATA #REQUIRED>
+<!ATTLIST foto alt CDATA #REQUIRED>
+<!ATTLIST video enlace CDATA #REQUIRED>
+<!ATTLIST video descripcion CDATA #REQUIRED>
+<!ATTLIST longitud unidades CDATA #REQUIRED>
+<!ATTLIST latitud unidades CDATA #REQUIRED>
+<!ATTLIST altitud unidades CDATA #REQUIRED>
+<!ATTLIST distancia unidades CDATA #REQUIRED>
+<!ATTLIST vencedor nombre CDATA #REQUIRED>
+<!ATTLIST duracion unidades CDATA #REQUIRED>
+<!ATTLIST piloto puesto CDATA #REQUIRED>
+<!ATTLIST piloto puntos CDATA #REQUIRED>

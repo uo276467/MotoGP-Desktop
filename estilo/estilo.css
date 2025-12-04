@@ -10,20 +10,53 @@ body {
     color: #05445e;
 }
 
-/*Especificidad 001*/
+/* Especificidad 001 */
 header {
     background-color: #75e6da;
-    /* Hereda propiedad color de body */
+    /* Advertencia por herencia color de body */
 }
 
-/*Especificidad 001*/
-nav {
-    background-color: #75e6da;
-    /* Hereda propiedad color de body*/
+/* Especificidad 010 */
+.active {
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #032533;
+    text-decoration: underline;
 }
 
-/*Especificidad 001*/
-h1 {
-    background-color: #75e6da;
-     /* Hereda propiedad color de body */
+/* Especificidad 002 */
+header a {
+    text-decoration-line: none;
+    color: #05445e;
+    font-size: 1.4em;
+} 
+
+/* Especificidad 003 */
+header + p + main{
+    font-size: small;
+}
+
+/* Especificidad 001 */
+h2 {
+    font-size: 1.8em;
+}
+
+/* Especificidad 001 */
+h3 {
+    text-decoration: underline;
+}
+
+/* Especificidad 001 */
+ul {
+    list-style-type: square;
+}
+
+/* Especificidad 001 */
+ol {
+    list-style-type: decimal;
+}
+
+/* Especificidad 001 */
+dt {
+    font-weight: bold;
 }
