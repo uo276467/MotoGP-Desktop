@@ -53,7 +53,7 @@ ul {
 
 /* Especificidad 001 */
 ol {
-    list-style-type: decimal;
+    list-style-type: disc;
 }
 
 /* Especificidad 001 */

@@ -25,7 +25,7 @@
 
   <galeriaFotos>
     <foto enlace="./multimedia/circuito_foto_1.jpg" alt="Vista aérea del circuito de Misano" />
-    <foto enlace="./multimedia/circuito_foto_2.jpg" alt="Curva con nombre del circuito" />
+    <foto enlace="./multimedia/circuito_foto_2.jpg" alt="Curva del circuito de Misano" />
   </galeriaFotos>
 
   <galeriaVideos>

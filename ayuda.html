@@ -70,37 +70,19 @@
 
         <article>
             <h3>Clasificaciones</h3>
-            <p>"Clasificaciones" es una página que muestra tablas de posiciones y puntos de la última carrera de MotoGP celebrada en Misano World Circuit</p>
+            <p>"Clasificaciones" es una página que muestra el podio de la última carrera de MotoGP celebrada en Misano World Circuit</p>
         </article>
 
         <article>
             <h3>Juegos</h3>
-            <p>En "Juegos" se agrupan mini-aplicaciones lúdicas incluidas en el proyecto. Por ejemplo, la página de memoria
-            (`memoria.html`) y otros pequeños juegos. Estas páginas usan JavaScript en `js/memoria.js` y similares.</p>
-            <p><strong>Cómo jugar:</strong> sigue las instrucciones dentro de cada juego (pulsar cartas, combinar parejas, etc.).
-            Si el juego guarda puntuaciones locales, usa el almacenamiento local del navegador (localStorage).</p>
-        </article>
-
-        <article>
-            <h3>Cronómetro</h3>
-            <p>La sección "Cronómetro" proporciona herramientas de cronometraje. Existen dos versiones: una HTML/JS (`cronometro.html`)
-            y una versión vinculada a PHP (`cronometro.php`) que puede integrarse con backend si se desea.</p>
-            <p><strong>Controles habituales:</strong> <em>Iniciar</em>, <em>Parar</em>, <em>Reinicio</em> y posibilidad de marcar vueltas/tiempos.
-            El script principal está en `js/cronometro.js` y la clase en `php/Cronometro.class.php` contiene la lógica del lado servidor.</p>
-            <p><strong>Consejos:</strong> para mediciones precisas, evita cambiar de pestaña o suspender el equipo; si necesitas persistencia
-            de tiempos, habilita la versión que guarda resultados en el servidor.</p>
-        </article>
-
-        <article>
-            <h3>Memoria (juego)</h3>
-            <p>El juego de memoria (`memoria.html`) consiste en emparejar cartas iguales. Reglas básicas:</p>
+            <p>En "Juegos" se agrupan mini-aplicaciones:</p>
             <ul>
-                <li>Haz clic en dos cartas para voltearlas. Si coinciden, permanecerán visibles; si no, volverán a taparse.</li>
-                <li>El objetivo es completar todas las parejas en el menor tiempo y con el menor número de intentos posible.</li>
-                <li>Puedes reiniciar la partida con el botón de reinicio.</li>
+                <li>Juego de memoria con cartas: un minujuego donde el usuario deberá levantar cartas y enontrar parejas con logos relacionados con MotoGP.</li>
+                <li>Cronómetro: un cronómetro implementado en javascript.</li>
+                <li>Cronómetro PHP: un cronómetro implementado en PHP.</li>
+                <li>Configuración test: contiene funciones para manipular la base de datos de las pruebas de usabilidad.</li>
+                <li>Test Usabilidad: un cuestionario que sirve de prueba para evaluar la usabilidad del sitio web.</li>
             </ul>
-            <p><strong>Accesibilidad:</strong> algunos juegos permiten interacción por teclado; revisa la implementación JS si necesitas
-            añadir soporte adicional.</p>
         </article>
 
     </main>

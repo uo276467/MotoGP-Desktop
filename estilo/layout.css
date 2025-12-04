@@ -25,6 +25,17 @@ main > div {
     height: 50vw;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Especificidad 004 */
+article h2 + figure img {
+    width: 60%;
+    height: auto;
+}
+
 @media (min-width: 320px) and (max-width: 799px) {
     /* Especificidad 001 */
     header {
@@ -53,8 +64,8 @@ main > div {
         width: 100%;
     }
 
-     /* Especificidad 003 */
-    article h2 + img {
+     /* Especificidad 004 */
+    article h2 + figure img {
         width: 100%;
         height: auto;
     }
