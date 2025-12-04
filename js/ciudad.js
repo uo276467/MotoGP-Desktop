@@ -12,7 +12,7 @@ class Ciudad {
     this.diasEntrenos = 3;
   }
 
-  // utilidades DOM -> ahora trabajan sobre <main>
+  // utilidades DOM
   _sec() { return document.querySelector("main"); }
   _append(el) { this._sec().appendChild(el); }
   _mk(tag, text) { const e = document.createElement(tag); if (text) e.textContent = text; return e; }
@@ -48,7 +48,6 @@ class Ciudad {
     liPoblacion.textContent = `Población: ${this.poblacion.toString()}`;
     ul.appendChild(liPoblacion);
 
-    // ahora se añade al <main>
     this._append(ul);
   }
 
@@ -56,7 +55,6 @@ class Ciudad {
     const p = document.createElement("p");
     p.textContent = `Coordenadas de ${this.nombre}: lat=${this.coordenadas.lat}, lon=${this.coordenadas.lon}`;
 
-    // ahora se añade al <main>
     this._append(p);
   }
 
@@ -109,10 +107,13 @@ class Ciudad {
       viento_dir: h.wind_direction_10m?.[i]
     }));
 
+    // Filtrar solo la hora 14:00
+    const horaCarrera = horas.filter(h => h.time.endsWith("14:00"));
+
     const amanecer = d.sunrise?.[0];
     const atardecer = d.sunset?.[0];
 
-    return { horas, amanecer, atardecer, metadata: {
+    return { horas: horaCarrera, amanecer, atardecer, metadata: {
       timezone: json.timezone, lat: json.latitude, lon: json.longitude
     }};
   }
