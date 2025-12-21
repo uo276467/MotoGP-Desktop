@@ -1,0 +1,93 @@
+/* Daniel Suárez de la Roza */
+/* UO276467 */
+
+/* Posicionamiento de elementos del proyecto MotoGP-Desktop */
+
+/* Especificidad 001 */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Especificidad 001 */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.5em;
+}
+
+/* Especificidad 002 */
+main > div {
+    width: 100%;
+    height: 50vw;
+}
+
+/* Especificidad 001 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Especificidad 004 */
+article h2 + figure img {
+    width: 60%;
+    height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 899px) {
+    /* Especificidad 001 */
+    header {
+        flex-direction: column;
+        /* Advertencia por redefinición de flex-direction (línea 9) */
+    }
+
+    /* Especificidad 001 */
+    nav {
+        flex-direction: column;
+        /* Advertencia por redefinición de flex-direction (línea 17) */
+        align-items: flex-start;
+        /* Advertencia por redefinición de flex-direction (línea 18) */
+    }
+
+    /* Especificidad 002 */
+    header + p{
+        display: none;
+    }
+
+    /* Especificidad 001 */
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Especificidad 001 */
+    audio {
+        width: 100%;
+    }
+
+    /* Especificidad 001 */
+    svg {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Especificidad 002 */
+    main > div {
+        width: 100%;
+        /* Advertencia por redefinición de width (línea 24) */
+        height: 50vw;
+        /* Advertencia por redefinición de height (línea 25) */
+    }
+
+    /* Especificidad 004 */
+    article h2 + figure img {
+        width: 100%;
+        /* Advertencia por redefinición de width (línea 36) */
+        height: auto;
+        /* Advertencia por redefinición de height (línea 37) */
+    }
+}
+

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito nombre="Misano World Circuit Marco Simoncelli"
+  fecha2025="2025-09-14" horaInicio="14:00"
+  nVueltas="27"
+  pais="Italia"
+  localidad="Misano Adriatico"
+  patrocinador="Red Bull Grand Prix of San Marino and the Rimini Riviera">
+
+  <extension unidades="metros">4226</extension>
+  <anchura unidades="metros">12</anchura>
+
+  <bibliografia>
+    <referencia
+      enlace="https://www.motogp.com/en/calendar/2025/event/san-marino/81a1f1c7-a9d3-48a1-a9e4-3dafd70726a4">
+      MotoGP.com</referencia>
+    <referencia
+      enlace="https://en.wikipedia.org/wiki/2025_San_Marino_and_Rimini_Riviera_motorcycle_Grand_Prix">
+      Wikipedia</referencia>
+    <referencia
+      enlace="https://www.crash.net/motogp/results/1081804/1/2025-san-marino-motogp-misano-race-results">
+      Crash.net</referencia>
+    <referencia enlace="https://en.wikipedia.org/wiki/Misano_World_Circuit">Wikipedia</referencia>
+  </bibliografia>
+
+  <galeriaFotos>
+    <foto enlace="./multimedia/circuito_foto_1.jpg" alt="Vista aérea del circuito de Misano" />
+    <foto enlace="./multimedia/circuito_foto_2.jpg" alt="Curva del circuito de Misano" />
+  </galeriaFotos>
+
+  <galeriaVideos>
+    <video enlace="./multimedia/circuito_video_1.mp4" descripcion="Salida de la carrera" />
+  </galeriaVideos>
+
+  <coordenadas>
+    <longitud unidades="grados">12.68333</longitud>
+    <latitud unidades="grados">43.96139</latitud>
+    <altitud unidades="metros">27</altitud>
+  </coordenadas>
+
+  <puntos>
+    <tramo>
+      <distancia unidades="metros">320</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.6825</longitud>
+        <latitud unidades="grados">42.9997</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>1</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">450</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.681111</longitud>
+        <latitud unidades="grados">42.9997</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>2</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">700</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.680833</longitud>
+        <latitud unidades="grados">43.958333</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>3</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">900</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.679444</longitud>
+        <latitud unidades="grados">43.958056</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>4</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.676944</longitud>
+        <latitud unidades="grados">43.96139</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>5</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.6775</longitud>
+        <latitud unidades="grados">43.958889</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>6</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.678611</longitud>
+        <latitud unidades="grados">43.958611</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>7</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.683611</longitud>
+        <latitud unidades="grados">43.963333</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>8</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.679444</longitud>
+        <latitud unidades="grados">43.961944</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>9</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.678333</longitud>
+        <latitud unidades="grados">43.962222</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>10</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.678333</longitud>
+        <latitud unidades="grados">43.962778</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>11</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.685278</longitud>
+        <latitud unidades="grados">43.964722</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>12</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.688611</longitud>
+        <latitud unidades="grados">43.964167</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>13</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.69</longitud>
+        <latitud unidades="grados">43.963333</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>14</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.689444</longitud>
+        <latitud unidades="grados">43.961944</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>15</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.688611</longitud>
+        <latitud unidades="grados">43.963611</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>16</sector>
+    </tramo>
+
+    <tramo>
+      <distancia unidades="metros">1856</distancia>
+      <coordenadas>
+        <longitud unidades="grados">12.685556</longitud>
+        <latitud unidades="grados">43.964167</latitud>
+        <altitud unidades="metros">27</altitud>
+      </coordenadas>
+      <sector>17</sector>
+    </tramo>
+  </puntos>
+
+  <vencedor nombre="Marc Márquez">
+    <duracion unidades="mm:ss:mmm">41:20.898</duracion>
+  </vencedor>
+
+  <top3>
+    <piloto puesto="1" puntos="512">Marc Márquez</piloto>
+    <piloto puesto="2" puntos="330">Álex Márquez</piloto>
+    <piloto puesto="3" puntos="237">Francesco Bagnaia</piloto>
+  </top3>
+</circuito>

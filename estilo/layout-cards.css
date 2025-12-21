@@ -1,0 +1,25 @@
+/* Especificidad 001 */
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* Especificidad 002 */
+main > h2 {
+  grid-column: 1 / -1;
+}
+
+/* Especificidad 002 */
+main > p {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+/* Especificidad 001 */
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    /* Advertencia por redefinición de grid-template-columns (línea 4) */
+  }
+}

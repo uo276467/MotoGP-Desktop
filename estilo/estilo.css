@@ -1,0 +1,105 @@
+/* Daniel Suárez de la Roza */
+/* UO276467 */
+
+/* Estilos generales del proyecto MotoGP-Desktop */
+
+/* Especifidad 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4f1f4;
+    color: #05445e;
+}
+
+/* Especificidad 001 */
+header {
+    background-color: #75e6da;
+    /* Advertencia por definición de color de fondo sin color de primer plano */
+}
+
+/* Especificidad 010 */
+.active {
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #032533;
+    /* Advertencia por definición de color de primer plano sin color de fondo */
+    text-decoration: underline;
+}
+
+/* Especificidad 002 */
+header a {
+    text-decoration-line: none;
+    color: #05445e;
+    /* Advertencia por definición de color de primer plano sin color de fondo */
+    font-size: 1.4em;
+} 
+
+/* Especificidad 003 */
+header + p + main{
+    font-size: small;
+}
+
+/* Especificidad 001 */
+h2 {
+    font-size: 1.8em;
+}
+
+/* Especificidad 001 */
+h3 {
+    text-decoration: underline;
+}
+
+/* Especificidad 001 */
+p {
+    font-size: 1.3em;
+}
+
+/* Especificidad 001 */
+ul {
+    list-style-type: square;
+}
+
+/* Especificidad 001 */
+ol {
+    list-style-type: disc;
+}
+
+/* Especificidad 001 */
+li {
+    font-size: 1.3em;
+}
+
+/* Especificidad 001 */
+dt {
+    font-weight: bold;
+}
+
+/* Especificidad 001 */
+table {
+    font-size: 1.3em;
+    border-collapse: collapse;
+}
+
+/* Especificidad 002 */
+table th,
+table td {
+    border: 0.1em solid #333;
+    padding: 0.4em;
+}
+
+/* Especificidad 003 */
+table thead th {
+    background-color: #105dbc;
+    color: white;
+}
+
+/* Especificidad 013 */
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Advertencia por definición de color de fondo sin color de primer plano */
+}
+
+/* Especificidad 013 */
+table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    /* Advertencia por definición de color de fondo sin color de primer plano */
+}

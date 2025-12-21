@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="author" content="Daniel Suárez de la Roza"/>
+    <meta name="description" content="Página con información del piloto Pedro Acosta"/>
+    <meta name="keywords" content="MotoGP, piloto, Pedro Acosta, biografía"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <title>MotoGP-Piloto</title>
+    <link rel="icon" href="multimedia/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Página de inicio">MotoGP Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="Página de inicio">Inicio</a>
+            <a href="piloto.html" class="active" title="Información del piloto">Piloto</a>
+            <a href="circuito.html" title="Información del circuito">Circuito</a>
+            <a href="meteorologia.html" title="Información meteorológica">Meteorología</a>
+            <a href="clasificaciones.php" title="Información sobre clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Página de juegos">Juegos</a>
+            <a href="ayuda.html" title="Manual de ayuda de MotoGP-Desktop">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: <a href="index.html" title="Página de inicio">Inicio</a> >> <strong>Piloto</strong></p>
+    
+    <main>
+        <section>
+            <h2>Pedro Acosta</h2>
+            <p>Pedro Acosta es un piloto español de motociclismo nacido en Mazarrón (Murcia) en 2004, considerado una de las mayores promesas del Mundial. 
+                Destacó desde muy joven por su talento y agresividad en pista, logrando el título de Moto3 en 2021 en su temporada de debut, un hito histórico. 
+                Su meteórico ascenso lo llevó a Moto2, donde confirmó su potencial con actuaciones sólidas y consistentes, hasta proclamarse campeón en 2023. 
+                Conocido como “El Tiburón de Mazarrón”, combina juventud, carisma y una mentalidad ganadora que lo han convertido en una de las grandes esperanzas del motociclismo español en MotoGP.
+            </p>
+            <p>Pedro Acosta debutó en el Mundial de Moto3 en 2021 con el equipo Red Bull KTM Ajo y sorprendió al mundo al ganar su segunda carrera y encadenar 
+                varios podios consecutivos, algo inédito para un novato. Con apenas 17 años, se proclamó campeón del mundo en su primera temporada, convirtiéndose 
+                en el piloto más joven en conseguirlo en la categoría. Su estilo agresivo pero inteligente, junto con una gran capacidad de adaptación, lo 
+                catapultaron rápidamente como uno de los talentos más prometedores del motociclismo.
+            </p>
+            <p>En 2022 dio el salto a Moto2, también con Red Bull KTM Ajo, y tras un primer año de aprendizaje, conquistó el título mundial en 2023 con una notable 
+                autoridad. Este éxito le abrió las puertas de MotoGP en 2024 con el equipo GasGas Factory Racing Tech3, donde, pese a ser debutante, logró podios y un 
+                rendimiento muy sólido. Su carácter cercano y su apodo “El Tiburón de Mazarrón” lo han convertido no solo en un referente deportivo, sino también en un 
+                piloto muy querido por la afición.
+            </p>
+
+            <picture>
+                <source
+                    media="(max-width: 465px)"
+                    srcset="multimedia/piloto_3.jpg"
+                />
+                <source
+                    media="(max-width: 799px)"
+                    srcset="multimedia/piloto_2.jpg"
+                />
+                <source
+                    media="(min-width: 800px)"
+                    srcset="multimedia/piloto_1.jpg"
+                />
+                <img alt="Pedro Acosta" src="multimedia/piloto_1.jpg" />
+            </picture>
+
+            <ul>
+                <li>Fecha de nacimiento: 25 de mayo de 2004</li>
+                <li>Lugar de nacimiento: Mazarrón, Murcia</li>
+                <li>Altura: 1,71 m</li>
+                <li>Peso: 63 kg</li>
+                <li>Moto: Red Bull KTM Factory Racing</li>
+                <li>Dorsal: 37</li>
+            </ul>
+
+            <a href="https://www.instagram.com/37pedroacosta/">Instagram</a>
+            <a href="https://pedroacosta37.com/">Sitio oficial</a>
+        </section>
+        <section>
+            <h2>Trayectoria deportiva</h2>
+            <ol>
+                <li>Swiss Innovative Investors Junior</li>
+                <li>Fundación Andreas Pérez 77</li>
+                <li>MT-Foundation77</li>
+                <li>Red Bull MotoGP Rookies Cup</li>
+                <li>Red Bull KTM Ajo</li>
+                <li>GasGas Factory Racing Tech 3</li>
+                <li>Red Bull KTM Factory Racing</li>
+            </ol>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" id="puntos">Puntos obtenidos</th>
+                        <th scope="col" id="posicion">Posición en la clasificación final</th>
+                        <th scope="col" id="poles">Poles</th>
+                        <th scope="col" id="victorias">Victorias</th>
+                        <th scope="col" id="podios">Podios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="puntos">215</td>
+                        <td headers="posicion">6º</td>
+                        <td headers="poles">1</td>
+                        <td headers="posicion">0</td>
+                        <td headers="posicion">5</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <video controls>
+                <source src="multimedia/video.mp4" type="video/mp4" />
+                <source src="multimedia/video.webm" type="video/webm" />
+            </video>
+
+            <audio controls>
+                <source src="multimedia/audio.mp3" type="audio/mp3"/>
+                <source src="multimedia/audio.wav" type="video/wav"/>
+            </audio>
+        </section>
+    </main>
+
+    <aside>
+        <dl>
+            <dt>Pole position</dt>
+            <dd>Posición de salida en primera línea y primera plaza de la parrilla, lograda por el piloto más rápido en la sesión de clasificación.</dd>
+            <dt>Pit lane</dt>
+            <dd>Zona de boxes por la que los pilotos entran y salen de la pista, utilizada para ajustes, cambios de moto o sanciones.</dd>
+            <dt>Highside</dt>
+            <dd>Tipo de caída en la que la rueda trasera pierde tracción, recupera agarre bruscamente y lanza al piloto por los aires.</dd>
+            <dt>Slipstream (rebufo)</dt>
+            <dd>Efecto aerodinámico que permite a un piloto ganar velocidad al rodar justo detrás de otro, aprovechando la reducción de resistencia al aire.</dd>
+            <dt>Wild card</dt>
+            <dd>Invitación especial que permite a un piloto competir en un Gran Premio sin estar inscrito en la temporada completa.</dd>
+        </dl>
+    </aside>
+</body>
+</html>
