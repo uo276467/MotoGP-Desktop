@@ -23,7 +23,7 @@ main article[data-estado=revelada] {
 
 /* especificidad: 013 */
 main article[data-estado=revelada] img{
-    /* background-color:antiquewhite ; */
+    background-color:antiquewhite ;
     /* Advertencia por definición de color de fondo sin color de primer plano */
 }
 
